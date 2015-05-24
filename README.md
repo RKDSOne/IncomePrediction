@@ -1,1 +1,2 @@
-#Income Prediction
+##Using Machine Learning for Income Prediction
+Code for creating a predictive model for income prediction based on social and professional characteristics of an individual and the web front end built using Shiny.
