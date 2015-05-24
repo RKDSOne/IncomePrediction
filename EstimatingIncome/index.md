@@ -17,6 +17,7 @@ knit        : slidify::knit2slides
 * This project uses a predictive model to estimate if a person earns more than 50,000 USD per year based on their age, gender, occupation etc.
 * [A web front end](https://rajkorde.shinyapps.io/Shiny/) was created for the model using Shiny Apps. On the website, a user can enter their age, gender, occupation etc and the model would predict if their annual income is more than 50,000 USD or not. It also provides some descriptive statistics for the user.
 * The model was trained using a 1994 data set from [UCI](https://archive.ics.uci.edu/ml/datasets/Adult).
+* The github repo for the code is available [here](https://github.com/rajkorde/IncomePrediction).
 
 ----- 
 
@@ -55,10 +56,10 @@ knit        : slidify::knit2slides
 
 -----
 
-## Resources
+## Crucial factors in predicting income
 
-* [Shiny App](https://rajkorde.shinyapps.io/Shiny/) for predicting Income.
-* Adult data set is available from [UCI](https://archive.ics.uci.edu/ml/datasets/Adult)
-* [Github repo](https://github.com/rajkorde/IncomePrediction)
-* [Random Forest] (http://en.wikipedia.org/wiki/Random_forest)
-* [Caret tuning] (http://topepo.github.io/caret/training.html)
+The plot below shows the top 10 factors that decide a person's annual income as per the model.
+
+![plot of chunk unnamed-chunk-4](assets/fig/unnamed-chunk-4-1.png) 
+
+

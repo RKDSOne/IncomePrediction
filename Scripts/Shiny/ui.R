@@ -72,7 +72,10 @@ shinyUI(fluidPage(
                "),
              p("
     To use this app, please select the various individual characteristics on the left panel and click \"Update view\". 
-    The application will then give you a prediction and where you stand in the various descriptive statistics gathered from the data. 
+    The application will then give you a prediction and where you stand in the various descriptive statistics gathered from the data.
+               "),
+             p("
+        Please be patient as it might take a few seconds for the website to load.
                "),
                  
              h2(textOutput("oPrediction")),
